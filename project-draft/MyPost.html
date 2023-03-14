@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Xiyuan, Aakash, Jiamin, Jiajun">
+        <meta name="description" content="The social media that's a little sweeter!">
+        <!-- normalize.css for cross-browser stuff -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <!-- link in Bootstrap here -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!-- include required fonts -->  
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Arvo|Itim" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <title>Sweet Victory</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+  <body>
+    <!-- Nav bar -->
+    <nav>
+        <div class="social-links">
+            <a href="index.html"><i class="fa fa-eye" aria-label="view"></i><span class="nav-text"> Community</span></a>
+            <a href="write_post.html"><i class="fa fa-pencil-square-o" aria-label="wirte"></i><span class="nav-text"> Write A Post</span></a>
+            <a href="ViewMyPosts.html"><i class="fa fa-user" aria-label="profile"></i><span class="nav-text"> Personal Posts</span></a>
+            <a href="login.html"><i class="fa fa-sign-in" aria-label="sign-in"></i><span class="nav-text"> Account </span></a>
+         </div>
+    </nav>
+
+
+    <!-- Nav bar, Logo, Title, which will be added later-->
+    <header>
+        <h1>Sweet Victory</h1>
+        <h2>View My Post</h2>
+    </header>
+
+    <main>
+         <!-- back button with icon -->
+        <button class="back-button"> 
+            <a href="ViewMyPosts.html">
+                <i class="fa fa-arrow-left"></i> 
+                Back 
+            </a>
+        </button>
+
+        <div class="main-body"> 
+
+            <!-- <div class="line"> </div> -->
+
+            <!-- edit-date -->
+            <!-- <div class="edit-date"> 
+                <i class="fa fa-pencil-square-o"></i>
+                <div id="current_date">
+                    <script>document.getElementById("current_date").innerHTML = Date();</script>
+                </div>
+            </div> -->
+
+            <div class="col-9"> 
+                <div id="current_date">
+                    <script>document.getElementById("current_date").innerHTML = Date();</script>
+                </div>
+            </div>
+        
+            <div class="post-content"> 
+                <h2>Post Subject</h2>
+                <p> Works considered to be classic literary texts include Cervantes’ “Don Quixote,” the English classic “Beowulf,” John Steinbeck’s “The Grapes of Wrath,” Charlotte Brontë’s “Jane Eyre” and Virginia Woolf’s “To the Lighthouse.” These works are distinguished by their lasting cultural and aesthetic value and artistic merit. While these works are considered fundamental literary works in Western culture, there are many different literary traditions around the world, each with their own distinct artistic values and fundamental works.
+
+                    In Ghana and Nigeria, the novel “Things Fall Apart” by Chinua Achebe is considered a fundamental literary work. The novel, which follows several generations of men in the Umuofia clan in Nigeria, is widely taught in Nigerian and Ghanaian classrooms, and describes pre and post-colonial life in the region.
+                    
+                    In Iran, the novel is a relatively new form, and its study is not yet widespread. A much more fundamental literary form than the novel is poetry. Iran has a rich history of influential and prolific poets, and students in Iranian schools are taught the poetry of figures such as Persian poets Hafiz, Sa’Addi, Ferdowsi, Rumi and Khayyam.
+                    
+                    Other examples of literary texts commonly taught in the United States include “One Hundred Years of Solitude” by Gabriel García Márquez, “War and Peace” by Leo Tolstoy, Jane Austen’s “Pride and Prejudice,” “The Adventures of Huckleberry Finn” by Mark Twain and “The Stranger” by Albert Camus. Chinua Achebe’s “Things Fall Apart,” Doris Lessing’s “The Golden Notebook,” Yasunari Kawabata’s “The Sound of the Mountain” and Toni Morrison’s “Beloved” are also considered literary texts.
+                    
+                    American students are taught that literary texts contrast with informational texts that have the purpose of providing information rather than entertainment. Informational texts, such as science briefs and history books, are increasingly receiving emphasis in public school curricula as part of the Common Core State Standards. As a result, many parents have challenged the idea that literary texts are of less pedagogical value than informational ones.
+                </p>
+            </div>
+            
+            <div class="operation-btns">
+                <!-- Edit button -->
+                <button class="edit-btn">
+                    <a href=""> 
+                        <i class="fa fa-edit"></i>
+                        Edit
+                    </a>
+                </button>
+
+                <!-- Delete button -->
+                <button class="delete-btn">
+                    <a href=""> 
+                        <i class="fa fa-trash"></i>
+                        Delete
+                    </a>
+                </button>
+                
+            </div>
+
+            <div class="comment-bar"> 
+                <h4> Comments </h4>
+                <ul class="comment">
+                    <li>
+                        <h3> User 1</h3>
+                        <p> In Ghana and Nigeria, the novel “Things Fall Apart” by Chinua Achebe is considered a fundamental literary work.</p>
+                    </li>
+    
+                    <li>
+                        <h3> User 2</h3>
+                        <p> In Ghana and Nigeria, the novel “Things Fall Apart” by Chinua Achebe is considered a fundamental literary work. American students are taught that literary texts contrast with informational texts that have the purpose of providing information rather than entertainment. Informational texts, such as science briefs and history books, are increasingly receiving emphasis in public school curricula as part of the Common Core State Standards. As a result, many parents have challenged the idea that literary texts are of less pedagogical value than informational ones.</p>
+                    </li>
+    
+                    <li>
+                        <h3> User 3</h3>
+                        <p> In Ghana and Nigeria, the novel “Things Fall Apart” by Chinua Achebe is considered a fundamental literary work.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </main>
+    <img src="img/borderimage.png" alt="Brown border image between login and footer." class="footer-border-image">
+    <footer>
+        <h3> Contact Us</h3>
+        <p><a href="mailto:email@myPost.uw.edu"><span class="material-icons">email</span> email@myPost.uw.edu</a></p>
+        <p><a href="tel:123-456-7890"><span class="material-icons">phone</span> 123-456-7890</a></p>
+        <p>&copy;INFO 340 Group BA2, Winter 2023</p>
+        <p><img src="img/sweetvictorybrown.png" alt="A brown and slightly larger version of the favicon on the tab of the page."></p>
+    </footer>
+
+
+  </body>
+</html>

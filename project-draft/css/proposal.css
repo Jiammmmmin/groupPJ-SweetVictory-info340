@@ -1,0 +1,38 @@
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:white;
+    background-color:brown;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 0.5em;
+}
+
+a{
+    text-decoration:none;
+    font-style:italic;
+    color:peru;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+footer li {
+    text-align:left;
+    display:block;
+}

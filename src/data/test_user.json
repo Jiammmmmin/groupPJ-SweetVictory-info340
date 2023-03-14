@@ -1,0 +1,6 @@
+[
+    {"userId": null, "userName": "Log Out"},
+    {"userId": "parrot", "userName": "Parrot"},
+    {"userId": "penguin", "userName": "Penguin"},
+    {"userId": "zebra", "userName": "Zebra"}
+  ]

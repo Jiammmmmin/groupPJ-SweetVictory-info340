@@ -1,0 +1,323 @@
+p {
+    line-height: 2;
+    font-size: 18px;
+    font-family: 'Arvo';
+}
+
+
+a{
+    text-decoration:none;
+    font-style:italic;
+    color:peru;
+    
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+footer li {
+    text-align:left;
+    display:block;
+}
+
+
+body {
+    background-color: #c1cbd7;
+    padding: 0.5em;
+}
+
+/* headings */
+
+h1{
+    font-family: 'Itim';
+    color:white;
+    background-color:rgb(134 150 167);
+    text-align: center;
+    font-size: 4rem;
+
+}
+
+h2 {
+    font-family:'Roboto';
+    text-align: left;
+    color: rgb(45 36 31);
+}
+
+h3, h4 {
+    font-family:'Roboto';
+}
+
+/*text*/
+.rect, .title-rect{
+    background-color: #fffaf4;
+    color: black;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    height: 70vh;
+    width: calc(100% - 30px);
+    outline-color: rgb(242, 233, 108);
+    
+}
+
+.title-rect{
+    height: 3rem;
+}
+
+.date {
+    margin: 0 20PX 0 0;
+}
+
+.form_label {
+    font-size: 1.4em;
+    margin: 0 0 0 10px;
+}
+
+
+.row{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+/*nav bar*/
+nav{
+    
+    display:block;
+}
+.nav-text{
+    font-size: 1rem;
+    display:block;
+}
+
+
+
+.bt:active{
+    background-color: rgb(242, 233, 108);
+    
+}
+
+.social-links  {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indexForm {
+    margin: 1rem 0;
+    padding: .5rem;
+    border: 2px solid gray;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.title {
+    margin: 0 0 0 10px;
+}
+
+.indexDiv {
+    display: block;
+    text-align: center;
+}
+
+.indexA { 
+    color: black;
+    text-decoration: none;
+} 
+
+.indexA:hover{
+    text-decoration:underline;
+}
+
+.indexLabel {
+    text-align: right;
+    margin:0;
+}
+
+.sweet-logo{
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.social-logo{
+    margin-left:0;
+    width:23%;
+}
+
+
+
+
+/* My post page CSS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* button */
+.back-button {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 0 5px 0;
+}
+
+.submit-button {
+    margin: 0 0 0 10px;
+}
+
+.main-body {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* line */
+.line {
+    height:1px;
+    background-color:aqua;
+}
+
+/* edit-date */
+.edit-date > p, .fa {
+    display:inline-block;
+    font-size: 15px;
+}
+
+
+/* post content*/
+.post-content, .comment-bar {
+    padding: 20px;
+    border:2px solid;
+    border-radius: 10px;
+    border-color: black;
+    color:black;
+}
+
+
+
+
+.comment-bar {
+    margin-top: 5px;
+    overflow-y:scroll;
+    height:400px;
+}
+
+.comment-bar h4 {
+    font-size: 20px;
+}
+
+.comment li{ 
+    border:2px solid;
+    border-radius: 10px;
+    border-color: black;
+    padding:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.operation-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+
+
+.comment-btn {
+    margin-top: 4rem;
+}
+
+/* log in/registration page */
+.login-colour{
+    color:rgb(134 150 167);
+    background-color:white;
+    border-radius: 4px;
+}
+
+.login-user-entry-text{
+    display:flex;
+    max-height:2rem;
+    width:11.9rem;
+    flex-shrink:1;
+    flex-basis:auto;
+}
+
+/* About page */
+
+.aboutImages img{
+    width:32%;
+    height:200px;
+    margin-left: 1%;
+    margin-right: auto;
+    border-radius:4px;
+}
+
+/* footer */
+
+.footer-border-image{
+    width:100%;
+}
+
+footer {
+    background-color:rgb(134 150 167);
+    color:white;
+    border-radius: 4px;
+    padding: 1.5rem;
+    line-height: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 0.5em;
+    line-height: 1.25;
+}
+
+footer a {
+    color:white;
+}
+
+.logo-on-bottom{
+    border-radius: 4px;
+    padding: 1.5rem;
+    line-height: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+
+/* to ensure site layout changes at different screen sizes */
+@media (min-width:598px) {
+    .main-body, footer {
+        max-width: 550px;
+    }
+}
+
+@media (min-width:768px) {
+    .main-body, footer {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .main-body, footer {
+        max-width: 960px;
+    }
+    .nav-text{
+        display:inline;
+    }
+}
+
